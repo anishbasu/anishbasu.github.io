@@ -35,11 +35,14 @@ nav {
     
 }
 p{
-    margin: 2px;
+    margin: 1px;
 }
 .icon{
     padding-left: 5px;
     padding-right: 5px;
+}
+ul{
+    margin: 10px;
 }
 section {
     float: right;
@@ -48,7 +51,6 @@ section {
     border-left: dashed;
     border-left-width: thin;
 }
-
 #container{
     margin: 0 auto;
     /*width: 70%;*/
