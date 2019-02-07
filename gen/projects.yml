@@ -1,0 +1,152 @@
+-
+  id: minux
+  name: Minux
+  tech: 
+    - C
+    - x86-64 AT&amp;T Assembly
+    - GRUB2
+    - musl libc
+  description: >
+    Minux is a hobby Operating System that I created 
+    in order to understand how Operating Systems work interally.
+    It features a working display driver, interrupt control,
+    multi-processing and Keyboard Support. It forms the basis 
+    for xstatic/krn, a project I worked on later based on the Linux Kernel.
+
+-
+  id: etherfx
+  name: EtherFX
+  tech:
+    - Python 3.6
+    - PyArrow
+    - Numba
+    - Redis
+    - Protocol Buffers
+    - Kubernetes
+  description: >
+    EtherFX automatically delegates expensive computation without
+    any human intervention to a local or remote cluster by rewriting
+    python import rules to provide a transparent proxy around modules imported from ether.
+
+-
+  id: gel
+  name: Gel
+  tech:
+    - ECMAScript 7
+    - React
+  description: >
+    Gel is a ReactJS library that creates higher-order component allowing for prop flow
+    and event bubbling across cross-domain sites in an IFrame based setup. It lets developers 
+    embed cross domain applications, allowing different teams to collaborate on a single page 
+    without access to a monorepo.
+
+-
+  id: krn
+  name: xstatic/krn
+  tech:
+    - C
+    - bash
+    - Protocol Buffers
+  description: >
+    krn is a minimal unikernel based on Linux with an accompanying custom network stack intended to
+    be used for cluster operations. krn accepts statically compiled payloads from the xstatic
+    toolchain to execute on bare hardware. It also features an optimizing scheduler which
+    schedules process threading based on CPU bus bandwidth.
+
+-
+  id: slick-tv
+  name: SlickTV
+  tech:
+    - Python 3.6
+    - Flask
+    - React
+    - ECMAScript 7
+    - Redux
+    - PostgresQL
+    - HLS.js
+  description: >
+    SlickTV was a live IPTV video streaming service based on the Flask framework. It featured
+    Adaptive Video Streaming on the web via the HLS standards. You could sign in to your favorite
+    IPTV service and start playing video on the web without setting up an application, it also featured Watch Party,
+    a fun messaging system that got created when you shared your currently streaming channel among friends.
+
+-
+  id: mithril
+  name: mithril.py
+  tech:
+    - Python 3.7
+  description: >
+    Created a python based re-implementation of mithril.js for templating HTML and other structured text.
+    It is a minimal library that closely resembles writing actual html in python. It can also make use of Python's formatting
+    operators in order to inline HTML in normal text.
+
+-
+  id: simple-ci
+  name: SimpleCI
+  tech:
+    - Termux
+    - Busybox
+    - Git
+    - Python 3.7
+    - ngrok
+  description: >
+    SimpleCI is a Continuous Integration Server for Android Phones that I made on my Nexus 5. It makes use of
+    ngrok to expose the local server to the internet, and uses Github Webhooks to download when a merge is pushed.
+    It then uses the make command to build the binary before assigning a build status to the specific branch.
+
+-
+  id: minidb
+  name: MiniDB
+  tech:
+    - C
+  description: >
+    MiniDB is a tiny database engine that supports a part of the ANSI SQL standard. It has been completely written in C
+    with no external dependencies and minimal filesystem writes. It stores the records in a paged system that allows for
+    easy indexing of data using a B-Tree based system.
+
+-
+  id: stockbar
+  name: StockBar
+  tech:
+    - Swift
+    - SwiftyJSON
+  description: >
+    Stockbar is a simple Mac Touchbar based application which retrieves current quotes from an undocumented Robinhood API
+    and allows the user to directly place trades with the broker after authenticating with the Robinhood API, right from 
+    their touchbar.
+
+-
+  id: workflowy
+  name: Workflowy
+  tech:
+    - SQLite
+    - Java
+    - Swing
+  description: >
+    Workflowy is a Workflow creation and management system. Flowy aims to be a stand alone replacement for Access that would allow people to make workflows - small business applications
+    that help people get work done faster and keep documentation in a single source of truth. Flowy makes data entry and reporting
+    easier than keeping spreadsheets by giving the users of the workflow instant access to the current data from multiple sources.
+
+-
+  id: autogradr
+  name: AutoGradr
+  tech:
+    - Flask
+    - Python 3.7
+    - ECMAScript 7
+  description: >
+    AutoGradr is a python based desktop application that makes it easy to write regex based function matching on student homework,
+    and pass in appropriate test data to evaluate student homework. This completely automated grading system parses BLackboard Learn
+    Offline Grading files (Gradebook and Assignment Download) and allows the user to save and resume grading both interospection 
+    and interaction test based homeworks over the course of a term and track student progress and average homework statistics.
+
+-
+  id: flow
+  name: Flow
+  tech:
+    - ECMAScript 6
+    - WebRTC
+  description: >
+    Flow was a web based content delivery network like PeerCDN, which leveraged the network bandwidth of active users on the website to
+    serve content to the people still loading the website. A cacheable resource could be added to a page by adding a data-cache attribute
+    to the linked resource in the HTML tag.

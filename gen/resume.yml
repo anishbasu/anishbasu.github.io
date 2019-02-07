@@ -1,0 +1,126 @@
+-
+  place:
+    id: google
+    name: Google Inc. | Mountain View, CA
+    role: Software Engineering Intern
+    duration: March 2019 - June 2019
+    summary: >
+      Will be working on the Hotels Content Team to aggregate search 
+      data for differentiating hotel amenities over a range of features.
+
+-
+  place:
+    id: drexel-ta
+    name: Drexel University College of Computing and Informatics | Philadelphia, PA
+    role: Teaching Assistant
+    duration: December 2017 - Present
+    summary: >
+      Instruct students as a Teaching Assistant at Drexel University for students at all levels.
+    achievements:
+      - Teaching for a year in Web Application Development, Systems Programming and Introductory Programming courses with over 400 office hours to date.
+      - Automated grading of student-submitted programs while checking for plagiarism by developing unit tests and interaction testing tools saving, on average more than 3 hours per week compared to manual grading.
+      - Managed a group of 5 TAs to teach a cohort of 400+ students, coordinating on grading, Lab and Office Hours.
+
+-
+  place:
+    id: dwsl
+    name: Drexel University Wireless Systems Laboratory | Philadelphia, PA
+    role: Student Researcher
+    duration: July 2018 - Present
+    summary: >
+      Student Researcher under Dr. Kapil Dandekar working on interrogation protocols
+      of Ultra-High Frequency RFID antennae as a part of an
+      <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1430212">NSF funded project</a>
+      exploring novel uses of conductive fiber to create smart garments
+    achievements:
+      - Research current approaches to RFID interrogation using Software Defined Radios
+      - Developed a rudimentary interrogation protocol based on current approaches to track movement via beam-forming
+      - Ported SDR based approach to the IMPINJ xArray module as a kernel module, to test on commercial RFID Readers
+
+-
+  place:
+    id: portl
+    name: Portl Media | Toronto ON
+    role: Software Architect
+    duration: November 2018 - Present
+    summary: >
+      Lead a group of 4 to architect, develop and test the client and backend 
+      platform for a TechStars Accelerated startup with partnerships in major 
+      entertainment firms like NBC, Universal Studios, FOX and SYFY
+    achievements:
+      - Rewrote the entire Portl Media Client Application from scratch to support localization and improve performance
+      - Wrote custom ReactJS libraries to support cross-domain/cross-library components with a focus on security and ease of use
+      - Created a custom Content Management System to create and deploy ReactJS based applications on the Portl Entertainment platform
+
+-
+  place:
+    id: jpmc
+    name: J. P. Morgan Chase &amp; Co. | Wilmington, DE
+    role: Software Engineer
+    duration: September 2017 - March 2018
+    summary: >
+      Spearheaded the adoption of newer, faster technologies and streamlined the 
+      creation of J.P. Morgan-branded websites, reducing development time 
+      and cost by half.
+    achievements:
+      - Created the <a href="https://media.chase.com/savings-week">National Savings Week</a> website which was featured on Times Square and thousands of Chase Bank Branches, resulting in 500K visits per day in peak period; built project from scratch in a 2-week pressured timeline
+      - Maintained the frontend for Chase Media Center, J. P. Morgan Chase Careers and J. P. Morgan during the migration to Adobe Experience Manager; worked on performance efficiency improvements, which reduced load times by 4x
+      - Developed in-house analytics solutions that reduced errors in the development of analytics tags and removed vendor dependencies, reducing both development times and eliminating the cost of the vendor software ($120,000/year)
+      - Introduced Agile Methodologies like Issue Tracking and release management to groups (25+ people) in Core Digital Team through intensive workshops, increasing the efficiency of releases by 2x.
+
+-
+  place:
+    id: sig
+    name: Susquehanna International Group | Bala Cynwyd, PA
+    role: Software Developer
+    duration: September 2016 - March 2017
+    summary: >
+      Part of Master Data Management Instruments Group, creating and employing a myriad of tools to ensure that fundamental data on equities are delivered to our clients efficiently.
+    achievements:
+      - Responsible for adding new exchanges and symbologies from new and existing markets.
+      - Ensuring that new versions of the software are bug-free from both a technical and user standpoint.
+      - Rewrote the internal stock pricing tool to be 4 times more efficient.
+-
+  place:
+    id: parcelist
+    name: Parcelist | Philadelphia, PA
+    role: Front-End Development Lead
+    duration: September 2016 - August 2018
+    summary: >
+      Wrote the front end to an interactive locker system to securely and automatically receive packages
+      and inform the recipient with an email, with the ability to remotely sign for packages
+    achievements:
+      - Architected the WebSocket based protocol to communicate with the backend for controlling the barcode scanner, package scanning system and locker access system
+      - Designed and created the User Interface for delivery and pickup mechanisms of the locker
+      - Created a custom Analytics Dashboard to monitor lockers and usage for security purposes
+      - Developed a WebRTC based video communication system for signing packages
+
+-
+  place:
+    id: orai
+    name: Orai (previously sayUmm) | Philadelphia, PA
+    role: Technical Advisor
+    duration: January 2016 - August 2016
+    summary: >
+      As a technical advisor, I provided technical and product direction to the then team of 2. 
+      The application is now a part of the syllabus for public speaking classes at 
+      National University of Singapore, Toastmasters International, among others.
+    achievements:
+      - Wrote the authentication protocol, dashboard and designed the initial User Interface for the mobile application
+      - Successfully pivoted the company from a VR Speech Training app to its current form, which users found more accessible due to the lack of a required VR equipment
+      - Wrote significant parts of the back-end code for interfacing with the IBM Watson speech to text API in a secure fashion in real time
+      - Wrote the Minimum Valuable Product for the pivot, refactoring a lot of the code that had been written as a part of a hackathon project
+
+-
+  place:
+    id: drexel-air
+    name: Drexel University Advanced Interaction Research Laboratory | Philadelphia, PA
+    role: Student Researcher
+    duration: October 2015 - March 2016
+    summary: >
+      As a Student Researcher at the Drexel Advanced Interaction Research Laboratory under Prof. Erin Solvey,
+      I was tasked with building a data processing pipeline and visualization tool for monitoring brain activity data in a highly customizable fashion.
+    achievements:
+      - Created an efficient data pipelining tool based on Python to capture brain activity data during experiments from fNIRS devices.
+      - Developed a pipelining tool based on Python that allows the researchers to build classification operations in a Graphical User Interface to be run on an Apache Spark based cluster.
+      - Created a beta-wave activity visualization tool that allows researchers to observe brain activity in real time, the library was robust enough to handle over 20 thousand points a second on the browser

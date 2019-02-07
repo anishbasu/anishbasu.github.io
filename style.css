@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Questrial");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+html, body {
+  width: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  mix-blend-mode: difference;
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+header ul li {
+  margin: 0 1em;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header ul li a:visited {
+  color: white;
+}
+
+article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+article h1, article h2 {
+  font-family: 'Questrial', sans-serif;
+}
+
+article #home {
+  color: white;
+}
+
+article #home h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+article #about .content {
+  background: #FFF;
+  padding: 2em;
+  border-radius: 0.5em;
+  -webkit-box-shadow: 0 0 1em 0 #DDD;
+          box-shadow: 0 0 1em 0 #DDD;
+  width: 75%;
+}
+
+article #work {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+article #work .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+article #work .description .place {
+  color: #000;
+  background-color: #E7EBF4;
+}
+
+article #work .description input[type='checkbox'] {
+  opacity: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+article #work .description input[type='checkbox'] + label {
+  width: 30%;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 0.5em;
+}
+
+article #work .description input[type='checkbox'] + label .duration, article #work .description input[type='checkbox'] + label summary, article #work .description input[type='checkbox'] + label ul {
+  display: none;
+}
+
+article #work .description input[type='checkbox']:checked + label {
+  width: 100%;
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+article #work .description input[type='checkbox']:checked + label .duration, article #work .description input[type='checkbox']:checked + label summary, article #work .description input[type='checkbox']:checked + label ul {
+  display: block;
+}
+
+article #projects .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  justify-content: space-evenly;
+}
+
+article #projects .description .project {
+  color: #fff;
+  background-color: #222632;
+}
+
+article #projects .description .project ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0;
+}
+
+article #projects .description .project ul li {
+  margin: 0.5em;
+  font-size: 0.7em;
+  background: #373d50;
+  min-width: 2em;
+  padding: 0.7em;
+  border-radius: 0.2em;
+}
+
+article #projects .description input[type='checkbox'] {
+  opacity: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+article #projects .description input[type='checkbox'] + label {
+  width: 30%;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 0.5em;
+}
+
+article #projects .description input[type='checkbox'] + label p {
+  display: none;
+}
+
+article #projects .description input[type='checkbox']:checked + label {
+  width: 100%;
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+article #projects .description input[type='checkbox']:checked + label p {
+  display: block;
+}
+
+article section {
+  min-height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+article section:nth-child(odd) {
+  color: #E7EBF4;
+  background: #222632;
+}
+
+article section:nth-child(even) {
+  color: #222220;
+  background: #E7EBF4;
+}
+
+@media print {
+  header {
+    display: none;
+  }
+  #home {
+    height: 100px;
+  }
+  #work .description {
+    width: 100vw;
+  }
+  #about {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
