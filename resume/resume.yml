@@ -1,0 +1,59 @@
+-
+  role: Software Engineer
+  company: Google
+  duration: October 2019 - Present
+  location: Mountain View, CA
+  achievements:
+    - Working on Search Infrastructure for Google Travel, with Search Retrieval, Serving Infrastructure and Analytics caps
+    - Built logging and analytics solutions to capture user intent to convert them into actionable insights for launching new products
+    - Created Search Ranking and Retrieval algorithms for hotels search ranking.
+    - Developed request-aware caching and personalization backends for serving user-centric results.
+    - Developed internal tooling to help improve developer workflows and reduce downtime while working with large (multi-terabyte) datasets.
+-
+  role: Software Engineering Intern
+  company: Google
+  duration: March 2019 - June 2019
+  location: Mountain View, CA
+  achievements:
+    - Developed flume based pipelines from various data sources to generate amenity data to be used on Hotels and Search, bringing large amounts of user contributed data (<b>27 billion rows</b>) into the Hotels Knowledge Base.
+    - Created Chrome based developer tooling to inspect data sources that feed into the Google Hotels interface, which is used by the larger Hotels team to debug and demonstrate new features and data sources.
+    - Developed new pipeline framework for mapping internal and external data to internal model.
+    - Developed monitoring and analytics dashboards for checking validation errors on all pipelines feeding into the internal database
+-
+  role: Embedded Systems Software Engineering Researcher
+  company: Drexel Wireless Systems Laboratory
+  duration: August 2018 - March 2019
+  location: Philadelphia, PA
+  achievements: 
+    - Developing a non invasive monitoring system for <b>babies in Intensive Care Units</b>, funded by the National Science Foundation (present-day monitoring is invasive and prone to extraction)
+    - Researching interrogation protocols of Ultra-High Frequency RFID antenna, specifically around movement tracking via beam-forming, exploring novel uses of conductive fiber to create <b>smart garments</b>
+    - Ported SDR based approach to the IMPINJ xArray module as a kernel module, to test on commercial RFID Readers
+-
+  role: Teaching Assistant
+  company: Drexel University College of Computing and Informatics
+  duration: December 2017 - March 2019
+  location: Philadelphia, PA
+  achievements:
+    - Taught for 2 years in Web Application Development, Systems Programming and Introductory Programming courses with over 400 office hours to date.
+    - Automated grading of student-submitted programs while checking for plagiarism by developing unit tests and interaction testing tools saving, on average more than 3 hours per week compared to manual grading.
+    - Managed a group of 5 TAs to teach a cohort of 400+ students, coordinating on grading, Lab and Office Hours.
+-
+  role: UX Mobility Engineering Intern
+  company: J. P. Morgan Chase &amp; Co.
+  duration: September 2017 - March 2018
+  location: Wilmington, DE
+  achievements:
+    - Created the Chase National Savings Week website and campaign from scratch, featured on Times Square and thousands of Chase Bank Branches, resulting in <b> 500K+ visits per day </b>
+    - Developed in-house analytics solutions that dramatically reduced errors in analytics tagging, and removed dependency on entire vendor analytics software, saving <b> $120k/year </b>
+    - Reduced load times by 45% of top Chase sites (Chase Media Center, Chase Careers, and J. P. Morgan) by implementing caching strategies and changing the dynamic rendering of data, saving <b>~$1 million / year</b>
+    - Led Core Digital Team in implementing Agile Development methodologies, increasing release efficiency by 200%
+
+-
+  role: Data Engineering Intern
+  company: Susquehanna International Group (Quant and Trading Firm)
+  duration: September 2016 - March 2017
+  location: Bala Cynwyd, PA
+  achievements:
+    - Utilized SQL, Python, and C# to build data processing pipelines for SIG which controls <i>90% of the entire derivatives market in the US</i>
+    - Transformed <b>20k+</b> lines of legacy KornShell into Python, minimizing errors during data processing, <b>decreasing oncall midnight pages by 60%</b>
+    - Developed new derivative price evaluation tool in C# which outperformed the existing solution by <b>4x</b> while improving overall data quality.

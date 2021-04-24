@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,500,700");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+ul {
+  margin: 0.5em;
+  padding: 0 1em;
+}
+
+h1 {
+  color: #0e434f;
+}
+
+h1 b {
+  font-weight: 500;
+}
+
+h4, h5, h6 {
+  padding: 0;
+  margin: 0.25em 0;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+hr {
+  margin-bottom: 2pt;
+}
+
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0.5em 0 0 0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+header a {
+  font-weight: 500;
+}
+
+header h1 {
+  font-weight: 300;
+  font-size: 23pt;
+  margin: 0 0 0.2em 0;
+  padding: 0;
+}
+
+article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 10pt;
+}
+
+article section.supplement {
+  -webkit-box-flex: 0.25;
+      -ms-flex-positive: 0.25;
+          flex-grow: 0.25;
+  max-width: 25%;
+  padding-left: 1em;
+}
+
+article section.supplement .education > .place h4 {
+  color: #0e434f;
+}
+
+article section.supplement .education > .place h5 {
+  font-size: 10pt;
+}
+
+article section.supplement .education > .place > .summary {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+article section.supplement .education > .place > .summary li {
+  padding: 0;
+  margin: 0;
+}
+
+article section.supplement .awards h4 {
+  margin-top: 6pt;
+}
+
+article section.main {
+  -webkit-box-flex: 0.75;
+      -ms-flex-positive: 0.75;
+          flex-grow: 0.75;
+  max-width: 75%;
+}
+
+article section.main .experience h4, article section.main .experience h5 {
+  font-weight: 400;
+}
+
+article section.main .experience h4 b, article section.main .experience h5 b {
+  color: #0e434f;
+}
+/*# sourceMappingURL=style.css.map */
